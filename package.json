@@ -1,0 +1,16 @@
+{
+  "name": "graphql-intro",
+  "version": "1.0.0",
+  "description": "A simple GraphQL server",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^5.6.14",
+    "express": "^4.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clay Allsopp <clay.allsopp@gmail.com>",
+  "license": "MIT"
+}
