@@ -18,6 +18,19 @@ let schema = new GraphQLSchema({
         }
       }
     }
+  }),
+  mutation: new GraphQLObjectType({
+    name: 'RootMutationType',
+    fields: {
+      updateCount: {
+        type: GraphQLInt,
+        description: 'Updates the count',
+        resolve: function() {
+          count += 1;
+          return count;
+        }
+      }
+    }
   })
 });
 
