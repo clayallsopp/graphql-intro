@@ -12,6 +12,7 @@ let schema = new GraphQLSchema({
     fields: {
       count: {
         type: GraphQLInt,
+        description: 'The count!',
         resolve: function() {
           return count;
         }
