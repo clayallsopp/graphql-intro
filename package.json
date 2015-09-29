@@ -4,10 +4,10 @@
   "description": "A simple GraphQL server",
   "main": "index.js",
   "dependencies": {
-    "babel": "^5.8.23",
+    "babel": "5.8.23",
     "body-parser": "1.13.2",
     "express": "4.13.1",
-    "graphql": "^0.4.4"
+    "graphql": "0.4.4"
   },
   "devDependencies": {},
   "scripts": {
