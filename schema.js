@@ -2,7 +2,7 @@ import {
   GraphQLObjectType,
   GraphQLSchema,
   GraphQLInt
-} from 'graphql/lib/type';
+} from 'graphql';
 
 let count = 0;
 
